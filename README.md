@@ -1,7 +1,5 @@
 # 🚀 Node.js CI/CD com Docker e Kubernetes
 
-![CI-CD](https://github.com/nicolejsdev/nodejs-cicd-kubernetes/actions/workflows/pipeline.yml/badge.svg)
-
 Esse projeto nasceu de uma pergunta simples: **o que acontece entre o `git push` e o código rodando em produção?**
 
 Em vez de só ler sobre isso, montei a esteira inteira. A cada push na `main`, o código é testado, empacotado em uma imagem Docker, verificado contra vulnerabilidades e publicado automaticamente em um cluster Kubernetes. Sem passos manuais.
